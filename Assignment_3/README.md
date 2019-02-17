@@ -1,12 +1,12 @@
 
-CS201 Spring 2019
-Assignment #3: Priority Queue
-Due 11:59 pm Monday, Feb. 25th
-15 points
+CS201 Spring 2019 <br />
+Assignment #3: Priority Queue <br />
+Due 11:59 pm Monday, Feb. 25th <br />
+15 points <br />
 
 A priority queue is a FIFO list, maintained in sorted priority order. For this assignment, keep the list in
 ascending priority order (so that nodes having lower priority go in the front of the queue).
-Define these structs:
+Define these structs: <br />
 
         typedef struct {
          int id;
