@@ -57,41 +57,67 @@ include CMakeFiles/Assignment_3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Assignment_3.dir/flags.make
 
-CMakeFiles/Assignment_3.dir/main.c.o: CMakeFiles/Assignment_3.dir/flags.make
-CMakeFiles/Assignment_3.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/austinviveiros/Desktop/CS201/Assignment_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Assignment_3.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Assignment_3.dir/main.c.o   -c /Users/austinviveiros/Desktop/CS201/Assignment_3/main.c
+CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.o: CMakeFiles/Assignment_3.dir/flags.make
+CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.o: ../pqueue.aviveiro.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/austinviveiros/Desktop/CS201/Assignment_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.o   -c /Users/austinviveiros/Desktop/CS201/Assignment_3/pqueue.aviveiro.c
 
-CMakeFiles/Assignment_3.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Assignment_3.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austinviveiros/Desktop/CS201/Assignment_3/main.c > CMakeFiles/Assignment_3.dir/main.c.i
+CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austinviveiros/Desktop/CS201/Assignment_3/pqueue.aviveiro.c > CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.i
 
-CMakeFiles/Assignment_3.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment_3.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austinviveiros/Desktop/CS201/Assignment_3/main.c -o CMakeFiles/Assignment_3.dir/main.c.s
+CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austinviveiros/Desktop/CS201/Assignment_3/pqueue.aviveiro.c -o CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.s
 
-CMakeFiles/Assignment_3.dir/main.c.o.requires:
+CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.o.requires:
 
-.PHONY : CMakeFiles/Assignment_3.dir/main.c.o.requires
+.PHONY : CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.o.requires
 
-CMakeFiles/Assignment_3.dir/main.c.o.provides: CMakeFiles/Assignment_3.dir/main.c.o.requires
-	$(MAKE) -f CMakeFiles/Assignment_3.dir/build.make CMakeFiles/Assignment_3.dir/main.c.o.provides.build
-.PHONY : CMakeFiles/Assignment_3.dir/main.c.o.provides
+CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.o.provides: CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.o.requires
+	$(MAKE) -f CMakeFiles/Assignment_3.dir/build.make CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.o.provides.build
+.PHONY : CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.o.provides
 
-CMakeFiles/Assignment_3.dir/main.c.o.provides.build: CMakeFiles/Assignment_3.dir/main.c.o
+CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.o.provides.build: CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.o
+
+
+CMakeFiles/Assignment_3.dir/pqueue-tests.c.o: CMakeFiles/Assignment_3.dir/flags.make
+CMakeFiles/Assignment_3.dir/pqueue-tests.c.o: ../pqueue-tests.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/austinviveiros/Desktop/CS201/Assignment_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Assignment_3.dir/pqueue-tests.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Assignment_3.dir/pqueue-tests.c.o   -c /Users/austinviveiros/Desktop/CS201/Assignment_3/pqueue-tests.c
+
+CMakeFiles/Assignment_3.dir/pqueue-tests.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Assignment_3.dir/pqueue-tests.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austinviveiros/Desktop/CS201/Assignment_3/pqueue-tests.c > CMakeFiles/Assignment_3.dir/pqueue-tests.c.i
+
+CMakeFiles/Assignment_3.dir/pqueue-tests.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment_3.dir/pqueue-tests.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austinviveiros/Desktop/CS201/Assignment_3/pqueue-tests.c -o CMakeFiles/Assignment_3.dir/pqueue-tests.c.s
+
+CMakeFiles/Assignment_3.dir/pqueue-tests.c.o.requires:
+
+.PHONY : CMakeFiles/Assignment_3.dir/pqueue-tests.c.o.requires
+
+CMakeFiles/Assignment_3.dir/pqueue-tests.c.o.provides: CMakeFiles/Assignment_3.dir/pqueue-tests.c.o.requires
+	$(MAKE) -f CMakeFiles/Assignment_3.dir/build.make CMakeFiles/Assignment_3.dir/pqueue-tests.c.o.provides.build
+.PHONY : CMakeFiles/Assignment_3.dir/pqueue-tests.c.o.provides
+
+CMakeFiles/Assignment_3.dir/pqueue-tests.c.o.provides.build: CMakeFiles/Assignment_3.dir/pqueue-tests.c.o
 
 
 # Object files for target Assignment_3
 Assignment_3_OBJECTS = \
-"CMakeFiles/Assignment_3.dir/main.c.o"
+"CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.o" \
+"CMakeFiles/Assignment_3.dir/pqueue-tests.c.o"
 
 # External object files for target Assignment_3
 Assignment_3_EXTERNAL_OBJECTS =
 
-Assignment_3: CMakeFiles/Assignment_3.dir/main.c.o
+Assignment_3: CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.o
+Assignment_3: CMakeFiles/Assignment_3.dir/pqueue-tests.c.o
 Assignment_3: CMakeFiles/Assignment_3.dir/build.make
 Assignment_3: CMakeFiles/Assignment_3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/austinviveiros/Desktop/CS201/Assignment_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Assignment_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/austinviveiros/Desktop/CS201/Assignment_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Assignment_3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Assignment_3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +125,8 @@ CMakeFiles/Assignment_3.dir/build: Assignment_3
 
 .PHONY : CMakeFiles/Assignment_3.dir/build
 
-CMakeFiles/Assignment_3.dir/requires: CMakeFiles/Assignment_3.dir/main.c.o.requires
+CMakeFiles/Assignment_3.dir/requires: CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.o.requires
+CMakeFiles/Assignment_3.dir/requires: CMakeFiles/Assignment_3.dir/pqueue-tests.c.o.requires
 
 .PHONY : CMakeFiles/Assignment_3.dir/requires
 

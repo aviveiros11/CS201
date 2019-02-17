@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Assignment_3.dir/main.c.o"
+  "CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.o"
+  "CMakeFiles/Assignment_3.dir/pqueue-tests.c.o"
   "Assignment_3.pdb"
   "Assignment_3"
 )

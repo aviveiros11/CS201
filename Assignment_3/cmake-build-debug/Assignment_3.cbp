@@ -78,7 +78,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/austinviveiros/Desktop/CS201/Assignment_3/main.c">
+		<Unit filename="/Users/austinviveiros/Desktop/CS201/Assignment_3/pqueue-tests.c">
+			<Option target="Assignment_3"/>
+		</Unit>
+		<Unit filename="/Users/austinviveiros/Desktop/CS201/Assignment_3/pqueue.aviveiro.c">
+			<Option target="Assignment_3"/>
+		</Unit>
+		<Unit filename="/Users/austinviveiros/Desktop/CS201/Assignment_3/pqueue.aviveiro.h">
 			<Option target="Assignment_3"/>
 		</Unit>
 		<Unit filename="/Users/austinviveiros/Desktop/CS201/Assignment_3/CMakeLists.txt">

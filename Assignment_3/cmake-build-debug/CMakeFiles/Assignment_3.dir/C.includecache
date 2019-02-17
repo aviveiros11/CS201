@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/austinviveiros/Desktop/CS201/Assignment_3/pqueue-tests.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+pqueue.aviveiro.h
+/Users/austinviveiros/Desktop/CS201/Assignment_3/pqueue.aviveiro.h
+
+/Users/austinviveiros/Desktop/CS201/Assignment_3/pqueue.aviveiro.c
+stdio.h
+-
+pqueue.aviveiro.h
+/Users/austinviveiros/Desktop/CS201/Assignment_3/pqueue.aviveiro.h
+
+/Users/austinviveiros/Desktop/CS201/Assignment_3/pqueue.aviveiro.h
+

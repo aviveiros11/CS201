@@ -123,32 +123,59 @@ Assignment_3/fast:
 	$(MAKE) -f CMakeFiles/Assignment_3.dir/build.make CMakeFiles/Assignment_3.dir/build
 .PHONY : Assignment_3/fast
 
-main.o: main.c.o
+pqueue-tests.o: pqueue-tests.c.o
 
-.PHONY : main.o
+.PHONY : pqueue-tests.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/Assignment_3.dir/build.make CMakeFiles/Assignment_3.dir/main.c.o
-.PHONY : main.c.o
+pqueue-tests.c.o:
+	$(MAKE) -f CMakeFiles/Assignment_3.dir/build.make CMakeFiles/Assignment_3.dir/pqueue-tests.c.o
+.PHONY : pqueue-tests.c.o
 
-main.i: main.c.i
+pqueue-tests.i: pqueue-tests.c.i
 
-.PHONY : main.i
+.PHONY : pqueue-tests.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/Assignment_3.dir/build.make CMakeFiles/Assignment_3.dir/main.c.i
-.PHONY : main.c.i
+pqueue-tests.c.i:
+	$(MAKE) -f CMakeFiles/Assignment_3.dir/build.make CMakeFiles/Assignment_3.dir/pqueue-tests.c.i
+.PHONY : pqueue-tests.c.i
 
-main.s: main.c.s
+pqueue-tests.s: pqueue-tests.c.s
 
-.PHONY : main.s
+.PHONY : pqueue-tests.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/Assignment_3.dir/build.make CMakeFiles/Assignment_3.dir/main.c.s
-.PHONY : main.c.s
+pqueue-tests.c.s:
+	$(MAKE) -f CMakeFiles/Assignment_3.dir/build.make CMakeFiles/Assignment_3.dir/pqueue-tests.c.s
+.PHONY : pqueue-tests.c.s
+
+pqueue.aviveiro.o: pqueue.aviveiro.c.o
+
+.PHONY : pqueue.aviveiro.o
+
+# target to build an object file
+pqueue.aviveiro.c.o:
+	$(MAKE) -f CMakeFiles/Assignment_3.dir/build.make CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.o
+.PHONY : pqueue.aviveiro.c.o
+
+pqueue.aviveiro.i: pqueue.aviveiro.c.i
+
+.PHONY : pqueue.aviveiro.i
+
+# target to preprocess a source file
+pqueue.aviveiro.c.i:
+	$(MAKE) -f CMakeFiles/Assignment_3.dir/build.make CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.i
+.PHONY : pqueue.aviveiro.c.i
+
+pqueue.aviveiro.s: pqueue.aviveiro.c.s
+
+.PHONY : pqueue.aviveiro.s
+
+# target to generate assembly for a file
+pqueue.aviveiro.c.s:
+	$(MAKE) -f CMakeFiles/Assignment_3.dir/build.make CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.s
+.PHONY : pqueue.aviveiro.c.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Assignment_3"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... pqueue-tests.o"
+	@echo "... pqueue-tests.i"
+	@echo "... pqueue-tests.s"
+	@echo "... pqueue.aviveiro.o"
+	@echo "... pqueue.aviveiro.i"
+	@echo "... pqueue.aviveiro.s"
 .PHONY : help
 
 

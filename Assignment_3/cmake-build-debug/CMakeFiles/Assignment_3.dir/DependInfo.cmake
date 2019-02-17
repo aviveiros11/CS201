@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/austinviveiros/Desktop/CS201/Assignment_3/main.c" "/Users/austinviveiros/Desktop/CS201/Assignment_3/cmake-build-debug/CMakeFiles/Assignment_3.dir/main.c.o"
+  "/Users/austinviveiros/Desktop/CS201/Assignment_3/pqueue-tests.c" "/Users/austinviveiros/Desktop/CS201/Assignment_3/cmake-build-debug/CMakeFiles/Assignment_3.dir/pqueue-tests.c.o"
+  "/Users/austinviveiros/Desktop/CS201/Assignment_3/pqueue.aviveiro.c" "/Users/austinviveiros/Desktop/CS201/Assignment_3/cmake-build-debug/CMakeFiles/Assignment_3.dir/pqueue.aviveiro.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
