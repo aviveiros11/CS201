@@ -19,6 +19,10 @@ pqueue.aviveiro.h
 /Users/austinviveiros/Desktop/CS201/Assignment_3/pqueue.aviveiro.c
 stdio.h
 -
+stdlib.h
+-
+string.h
+-
 pqueue.aviveiro.h
 /Users/austinviveiros/Desktop/CS201/Assignment_3/pqueue.aviveiro.h
 
