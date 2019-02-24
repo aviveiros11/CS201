@@ -76,6 +76,7 @@ void pqueueTests() {
 
     printf("--------------------------------------------------\n");
 
+
     while (queueLength(pqueue) > 0) {
         minPriority = getMinPriority(pqueue);
         printf("min priority = %d\n", minPriority);
