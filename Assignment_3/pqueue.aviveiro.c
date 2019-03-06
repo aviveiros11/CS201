@@ -11,7 +11,7 @@ int enqueue(PQueueNode **pqueue, int priority, void *data){
     newNode = (PQueueNode *) malloc(sizeof(PQueueNode));
     newNode->priority = priority;
     newNode->data = data;
-    
+
 
     if ((*pqueue) == NULL) {
         // Insert New Node before head
@@ -31,7 +31,7 @@ int enqueue(PQueueNode **pqueue, int priority, void *data){
         // Traverse the list and find a
         // position to insert new node
         while (start->next != NULL &&
-               start->next->priority < priority) {
+               start->next->priority <= priority) {
             start = start->next;
         }
 
@@ -46,7 +46,7 @@ int enqueue(PQueueNode **pqueue, int priority, void *data){
 void *dequeue(PQueueNode **pqueue){
     PQueueNode* temp = *pqueue;
     (*pqueue) = (*pqueue)->next;
-    free(temp);
+    return temp->data;
 
 }
 
@@ -68,20 +68,36 @@ void printQueue(PQueueNode *pqueue, void (printFunction)(void*)){
         }
     }
 
-
-
 }
 
 int getMinPriority(PQueueNode *pqueue){
-    return 0;
+    if(pqueue == NULL){
+        return pqueue->priority;
+    }
+    else{
+        while(pqueue != NULL){
+            if(pqueue->priority){
+                return pqueue->priority;
+            }
+            pqueue = pqueue->next;
+        }
+    }
+
 }
 
 int queueLength(PQueueNode *pqueue){
-    return 0;
+    int length = 0;
+
+    while(pqueue != NULL){
+        length+=1;
+        pqueue = pqueue->next;
+
+    }
+    return length;
 }
 
 void printStudentRecord(void *data){
     StudentRecord *node = (StudentRecord *) data;
-    printf("id = %d , name = %s\n", node->id, node->name);
+    printf("data = %s, %d\n", node->name, node->id);
 
 }
