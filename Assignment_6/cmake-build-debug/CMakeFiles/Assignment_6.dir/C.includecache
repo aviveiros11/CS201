@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/austinviveiros/Desktop/CS201/Assignment_6/main.c
+
+/Users/austinviveiros/Desktop/CS201/Assignment_6/semaphore-example.c
+semaphore.h
+-
+stdio.h
+-
+stdlib.h
+-
+pthread.h
+-
+zconf.h
+-
+
