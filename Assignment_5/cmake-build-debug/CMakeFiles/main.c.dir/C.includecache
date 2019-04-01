@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/austinviveiros/Desktop/CS201/Assignment_5/mxv.aviveiro.c
+pthread.h
+-
+stdio.h
+-
+stdlib.h
+-
+
+/Users/austinviveiros/Desktop/CS201/Assignment_5/pthreads-example.c
+

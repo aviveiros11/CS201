@@ -1,0 +1,3 @@
+/Users/austinviveiros/Desktop/CS201/Assignment_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/austinviveiros/Desktop/CS201/Assignment_5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/austinviveiros/Desktop/CS201/Assignment_5/cmake-build-debug/CMakeFiles/main.c.dir
