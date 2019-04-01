@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/austinviveiros/Desktop/CS 201/Assignment_4/shmem-example.c
+
+/Users/austinviveiros/Desktop/CS 201/Assignment_4/shmem.aviveiro.c
+stdio.h
+-
+string.h
+-
+sys/shm.h
+-
+zconf.h
+-
+sys/wait.h
+-
+ctype.h
+-
+
